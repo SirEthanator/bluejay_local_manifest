@@ -2,7 +2,7 @@
 <manifest>
   <remote name="sirethanator"
           fetch="https://github.com/SirEthanator/"
-          revision="lineage-21" />
+          revision="everest" />
   
   <remote name="everest-devices"
           fetch="https://github.com/ProjectEverest-Devices/"
