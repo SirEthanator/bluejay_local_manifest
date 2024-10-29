@@ -10,7 +10,7 @@
           fetch="https://github.com/themuppets"
           revision="lineage-21" />
 
-  <remove-project name="android_device_google_gs-common" />
+  <remove-project path="device/google/gs-common" />
   <project path="device/google/gs101" name="android_device_google_gs101" remote="sigma-devices" />
   <project path="device/google/bluejay" name="android_device_google_bluejay" remote="sirethanator" />
   <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" remote="aosp-bluejay" />
