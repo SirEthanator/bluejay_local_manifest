@@ -2,18 +2,20 @@
 <manifest>
   <remote name="sirethanator"
           fetch="https://github.com/SirEthanator/"
-          revision="everest" />
-  
-  <remote name="everest-devices"
-          fetch="https://github.com/ProjectEverest-Devices/"
-          revision="fourteen-qpr3" />
+          revision="sigma" />
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS/"
+          revision="lineage-21" />
+  <remote name="muppets"
+          fetch="https://github.com/themuppets"
+          revision="lineage-21" />
 
-  <project path="device/google/gs101" name="android_device_google_gs101" remote="everest-devices" />
+  <project path="device/google/gs101" name="android_device_google_gs101" remote="sigma-devices" />
   <project path="device/google/bluejay" name="android_device_google_bluejay" remote="sirethanator" />
   <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" remote="aosp-bluejay" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" remote="aosp-bluejay" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" remote="aosp-bluejay" />
-  <project path="device/google/gs-common" name="android_device_google_gs-common" remote="everest-devices" />
-  <project name="TheMuppets/proprietary_vendor_google_bluejay" path="vendor/google/bluejay" revision="lineage-21" groups="muppets,muppets_bluejay" clone-depth="1" />
+  <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage" />
+  <project path="vendor/google/bluejay" name="proprietary_vendor_google_bluejay" remote="muppets" clone-depth="1" />
 </manifest>
 
