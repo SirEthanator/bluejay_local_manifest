@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="aosp-bluejay"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-14.0.0_r73"
+          clone-depth="1" />
   <remote name="sirethanator"
           fetch="https://github.com/SirEthanator/"
           revision="orion" />
