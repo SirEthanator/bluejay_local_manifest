@@ -15,7 +15,7 @@
           fetch="https://github.com/themuppets"
           revision="lineage-21" />
 
-  <project path="device/google/gs101" name="device_google_gs101" remote="lineage" />
+  <project path="device/google/gs101" name="android_device_google_gs101" remote="lineage" />
   <project path="device/google/bluejay" name="android_device_google_bluejay" remote="sirethanator" />
   <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" remote="aosp-bluejay" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" remote="aosp-bluejay" />
