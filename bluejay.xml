@@ -2,18 +2,17 @@
 <manifest>
   <remote name="sirethanator"
           fetch="https://github.com/SirEthanator/"
-          revision="sigma" />
+          revision="mist" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS/"
-          revision="lineage-21" />
+    revision="lineage-22.1" />
   <remote name="muppets"
           fetch="https://github.com/themuppets"
-          revision="lineage-21" />
+          revision="lineage-22.1" />
 
-  <remove-project path="device/google/gs-common" />
-  <project path="device/google/gs101" name="device_google_gs101" remote="sigma-devices" />
+  <project path="device/google/gs101" name="device_google_gs101" remote="lineage" />
   <project path="device/google/bluejay" name="android_device_google_bluejay" remote="sirethanator" />
-  <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" remote="aosp-bluejay" />
+  <project path="device/google/bluejay-kernels/5.10" name="device/google/bluejay-kernels/5.10" remote="aosp-bluejay" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" remote="aosp-bluejay" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" remote="aosp-bluejay" />
   <project path="device/google/gs-common" name="android_device_google_gs-common" remote="lineage" />
