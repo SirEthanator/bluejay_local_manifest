@@ -5,10 +5,10 @@
           revision="mist" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS/"
-    revision="lineage-22.1" />
+    revision="lineage-22.0" />
   <remote name="muppets"
           fetch="https://github.com/themuppets"
-          revision="lineage-22.1" />
+          revision="lineage-22.0" />
 
   <project path="device/google/gs101" name="android_device_google_gs101" remote="lineage" />
   <project path="device/google/bluejay" name="android_device_google_bluejay" remote="sirethanator" />
