@@ -5,7 +5,7 @@
           revision="mist" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS/"
-    revision="lineage-22.0" />
+          revision="lineage-22.0" />
   <remote name="muppets"
           fetch="https://github.com/themuppets"
           revision="lineage-22.0" />
